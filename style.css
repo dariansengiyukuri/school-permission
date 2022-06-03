@@ -1,0 +1,77 @@
+#layout{
+	width: auto;
+	
+	height: 600px;
+	
+}
+#banner{
+	width: auto;
+	height: 100px;
+	background-color:gray;
+}
+#menu{
+	width: auto;
+	height: 50px;
+	background-color:gray;
+}
+#content{
+	width: auto;
+	height: 400px;
+		
+	
+
+}
+#footer{
+	width: auto;
+	height: 50px;
+	background-color:gray;
+
+}
+.dropdown
+{
+	display: inline-block;
+	position: relative;
+	padding-top: 27px;
+}
+.dropbtn
+{
+	
+
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	
+}
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+.dropdown:hover .dropbtn
+{
+	background-color: white;
+
+}
+.dropdown-content a
+{
+	display: block;
+	text-decoration: none;
+	width: 120px;
+	padding: 12px 16px;
+}
+.dropdown-content a :hover 
+{
+	background-color: purple;
+}
+img{
+width: 1350px;
+height: 415px; 
+
+
+
+
+
+
+
+}
