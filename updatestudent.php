@@ -1,7 +1,6 @@
 <?php
 include "connect.php";
-$update=$_GET['updbtn'];
-$query1=mysqli_query($con,"SELECT*FROM student WHERE student_id='$update'");
+$query1=mysqli_query($con,"SELECT * FROM `student` WHERE `student_id`='$update'");
 while ($row1=mysqli_fetch_array($query1))
  {
 ?>
@@ -47,7 +46,7 @@ if (isset($_POST['updatebtn']))
 	$adds=$_POST["adds"];
 	$dob=$_POST["dob"];
 	include "connect.php";
-	$quer=mysqli_query($con,"UPDATE `student` SET first name='$fname',last name='$lname',gender='$Sex',address='$adds',dob='$dob' where student_id='$update'");
+	$quer=mysqli_query($con,"UPDATE `student` SET `first name`='$fname',`last name`='$lname',`gender`='$Sex',`address`='$adds',`dob`='$dob' where `student_id`='$update'");
 	if ($quer==1)
 	 {
 		header("location:viewstudent.php");
